@@ -1,0 +1,4 @@
+*.tif*
+*test*
+*.geojson
+*.qmd
