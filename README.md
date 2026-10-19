@@ -76,11 +76,11 @@ Outputs go to `data/preds/sunset/`: buildings as GeoParquet and GeoJSON (roof m�
 | --- | --- |
 | Buildings | 3,735 |
 | Worth a system (≥ 10 m² usable roof) | 3,444 (92%) |
-| Usable roof | 302,727 m² |
+| Usable roof | 302,719 m² |
 | Capacity | 39.4 MWp |
 | Generation | 48.7 GWh/yr |
-| CO₂ avoided | 9,460 t/yr |
-| Median roof | 1,558 kWh/m²/yr, 11.1 kWp, 13,689 kWh/yr |
+| CO₂ avoided | 9,458 t/yr |
+| Median roof | 1,557 kWh/m²/yr, 11.1 kWp, 13,686 kWh/yr |
 | Shading loss on roof pixels | 4.7% |
 
 
@@ -88,10 +88,10 @@ Outputs go to `data/preds/sunset/`: buildings as GeoParquet and GeoJSON (roof m�
 
 | Check | This model | Reference |
 | --- | --- | --- |
-| Sunlight on an open flat roof | 1,596 kWh/m² | PVGIS PVcalc (NSRDB): 1,592 kWh/m² |
-| South roof at 36° | 1,863 kWh/m² | PVGIS optimal angle (36°, 10° west of south): 1,852 kWh/m² |
-| Yield of a flat system | 1,277 kWh/kWp | PVGIS, 14% system loss: 1,262 kWh/kWp |
-| Yield across all suitable roofs | 1,237 kWh/kWp | Project Sunroof, ZIP 94122: 1,317 kWh/kW |
+| Sunlight on an open flat roof | 1,595 kWh/m² | PVGIS PVcalc (NSRDB): 1,592 kWh/m² |
+| Roof at 36°, 10° west of south | 1,864 kWh/m² | PVGIS optimal angle (same): 1,852 kWh/m² |
+| Yield of a flat system | 1,276 kWh/kWp | PVGIS, 14% system loss: 1,262 kWh/kWp |
+| Yield across all suitable roofs | 1,236 kWh/kWp | Project Sunroof, ZIP 94122: 1,317 kWh/kW |
 | Share of buildings suitable | 92% | Project Sunroof, ZIP 94122: 78.8% |
 | Median system size | 11.1 kWp | Project Sunroof, ZIP 94122: 5.25 kW |
 | Roof height vs the 2010 LiDAR heights in DataSF | median -0.18 m, 0.8% of buildings off by > 2 m | 0 |
