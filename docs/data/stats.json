@@ -1,0 +1,104 @@
+{
+ "area": "sunset",
+ "centre": [
+  -122.4953,
+  37.7572
+ ],
+ "timezone": "America/Los_Angeles",
+ "weather": "pvgis",
+ "buildings": 3735,
+ "viable": 3444,
+ "viable_share": 0.922,
+ "usable_m2": 302727,
+ "kwp": 39355,
+ "mwh_year": 48665,
+ "co2_t_year": 9460,
+ "median_kwh_m2": 1558,
+ "median_kwp": 11.1,
+ "median_kwh_year": 13689,
+ "kwh_per_kwp": 1237,
+ "annual_ghi": 1595,
+ "open_flat_kwh_m2": 1596,
+ "shading_loss": 0.047,
+ "usable_pixel_share": 0.824,
+ "dsm_vs_2010_lidar_median_m": -0.18,
+ "pvgis": {
+  "flat": {
+   "kwh_kwp": 1262.01,
+   "kwh_m2": 1591.62,
+   "tilt": 0,
+   "azimuth": 0
+  },
+  "optimal": {
+   "kwh_kwp": 1478.66,
+   "kwh_m2": 1851.6,
+   "tilt": 36,
+   "azimuth": 10
+  }
+ },
+ "sunroof": {
+  "zip": "94122",
+  "percent_qualified": 78.8,
+  "count_qualified": 11407,
+  "kw_median": 5.25,
+  "kwh_per_kw": 1317
+ },
+ "settings": {
+  "tilt_step": 5,
+  "azimuth_step": 15,
+  "directions": 16,
+  "max_distance": 100,
+  "edge": 0.5,
+  "max_slope": 45,
+  "north_slope": 10,
+  "min_share": 0.7,
+  "min_area": 10,
+  "packing": 0.65,
+  "efficiency": 0.2,
+  "performance_ratio": 0.8,
+  "grid_kg_per_kwh": 0.1944,
+  "min_kwh_m2": 1117
+ },
+ "colour_range": [
+  1300,
+  1750
+ ],
+ "ramp_light": [
+  "#ffedd5",
+  "#fed7aa",
+  "#fdba74",
+  "#fb923c",
+  "#f97316",
+  "#ea580c",
+  "#c2410c",
+  "#9a3412"
+ ],
+ "ramp_dark": [
+  "#7c2d12",
+  "#9a3412",
+  "#c2410c",
+  "#ea580c",
+  "#f97316",
+  "#fb923c",
+  "#fdba74",
+  "#fed7aa"
+ ],
+ "image_corners": [
+  [
+   -122.50233204739746,
+   37.76445526014567
+  ],
+  [
+   -122.4884621228556,
+   37.76445526014567
+  ],
+  [
+   -122.4884621228556,
+   37.74904024038282
+  ],
+  [
+   -122.50233204739746,
+   37.74904024038282
+  ]
+ ]
+}
