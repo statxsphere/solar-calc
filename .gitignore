@@ -2,3 +2,10 @@
 *test*
 *.geojson
 *.qmd
+
+data/raw/
+data/*/
+__pycache__/
+.ipynb_checkpoints/
+
+!docs/data/*.geojson
